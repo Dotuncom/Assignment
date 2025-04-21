@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ReactLogo from '../assets/react.svg';
+import nhubLogo from '../assets/nhub.png';
 
 const Navbar = () => {
   const [open, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
     <header className="bg-green-500 fixed top-0 left-0 w-full h-16 z-50 shadow-md">
       <div className="flex justify-between items-center px-4 py-3 md:px-8">
         {/* Logo */}
-        <img src={ReactLogo} alt="Logo" className="w-12 h-12" />
+        <img src={nhubLogo} alt="Logo" className="w-12 h-12" />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 text-white font-semibold text-lg">

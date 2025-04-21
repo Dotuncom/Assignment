@@ -1,5 +1,5 @@
 import React from 'react'
-import nhub from '../assets/nhub.png'
+import ReactLogo from '../assets/react.svg'
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="#" className="hover:text-yellow-300 transition-colors">Contact</a>
       </div>
       <div className='flex flex-row justify-center items-center md:flex-col md:text-2xl'>
-        <img src={nhub} width={60} className='rounded-full'/>
+        <img src={ReactLogo} width={20} className='rounded-full'/>
         <p className='text-center text-[12px]'>all right reserved copyright@nhub dotun</p>
       </div>
   </div>
