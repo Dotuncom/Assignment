@@ -7,7 +7,7 @@ const FoodPreview = () => {
             id: 1,
             name: 'Pap and Akara',
             img:{
-                src: 'https://opensauce.vendease.com/wp-content/uploads/2023/05/image-10.png',
+                src: 'https://rexclarkeadventures.com/wp-content/uploads/2024/09/akara-beans-cake.webp',
                 alt:'pap and akara'
             },
             mealType: 'Breakfast'
@@ -35,7 +35,7 @@ const FoodPreview = () => {
             id: 4,
             name: 'Yam and Egg Sauce',
             img:{
-                src: 'https://opensauce.vendease.com/wp-content/uploads/2023/05/image-12-1024x576.png',
+                src: 'https://homepressurecooking.com/wp-content/uploads/2024/07/yam-and-egg-stew-recipe-1721958267-300x300.jpg',
                 alt:'yam and egg sauce'
             },
             mealType: 'Breakfast'
